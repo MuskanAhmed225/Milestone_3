@@ -1,0 +1,67 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:20px;
+    padding:0;
+    background-color: rgb(95, 160, 160);
+}
+h1{
+    text-align: center;
+    color: rgb(12, 14, 14);
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(180, 180, 180);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rosybrown(0,0,0 ,0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px  solid #566b72;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom :20px;
+    background-color: rgb(128, 214, 238);
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color:rgb(55, 102, 102) ;
+
+}
+input,textarea{
+    width: calc(350px - 14px);
+    padding: 8px;
+    margin-top: 16px;
+      border: 1px solid#0f0f0d;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button{display: block;
+width: 100px;
+padding: 17px;
+background-color:rgb(149, 150, 151);
+border: none;
+border-radius: 144px;
+cursor: pointer;
+margin-top: 10px;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    background-color: rgb(70, 70, 66);
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #616db4;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rosybrown(0,0,0 ,0.5);
+
+}
+#resumeOutput h2 {
+    color: #566b72;
+}
